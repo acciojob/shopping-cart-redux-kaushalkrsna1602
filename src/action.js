@@ -1,36 +1,27 @@
-import { actionTypes } from './action.js'; // Ensure correct import path
+import {actionTypes} from './type'
 
 export const addToCart = (product) => ({
-    type: actionTypes.addToCart || "ADD_TO_CART", // Fallback in case of undefined
+    type: actionTypes.addToCart,
     payload: product,
 });
-
+  
 export const removeFromCart = (product) => ({
-    type: actionTypes.removeFromCart || "REMOVE_FROM_CART",
+    type: actionTypes.removeFromCart,
     payload: product
 });
 
 export const addItemQty = (product) => ({
-    type: actionTypes.addItemQty || "ADD_ITEM_QTY",
+    type: actionTypes.addItemQty,
     payload: product
 });
 
 export const removeItemQty = (product) => ({
-    type: actionTypes.removeItemQty || "REMOVE_ITEM_QTY",
+    type: actionTypes.removeItemQty,
     payload: product
 });
 
 export const addWishlist = (product) => ({
-    type: actionTypes.addWishlist || "ADD_TO_WISHLIST",
+    type: actionTypes.addWishlist,
     payload: product
 });
-
-
-export const actionTypes = {
-    addToCart: "ADD_TO_CART",
-    removeFromCart: "REMOVE_FROM_CART",
-    addItemQty: "ADD_ITEM_QTY",
-    removeItemQty: "REMOVE_ITEM_QTY",
-    addWishlist: "ADD_TO_WISHLIST",
-};
-
+  
