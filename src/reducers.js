@@ -1,4 +1,4 @@
-import {actionTypes} from './action'
+import { actionTypes } from './action.js';
 import products from './product.json'
 
 const initProducts = [...products]
