@@ -1,22 +1,13 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Cart from "./components/Cart"
-import Products from "./components/Products";
-import Wishlist from "./components/Wishlist";
-import Footer from "./components/Footer";
 
-function App() {
+import React from "react";
+import './../styles/App.css';
+
+const App = () => {
   return (
-    <>
-      <Navbar/>
-      <div className="container">
-        <Products />
-        <Wishlist />
-        <Cart />
-      </div>
-      <Footer />
-    </>
-  );
+    <div>
+        {/* Do not remove the main div */}
+    </div>
+  )
 }
 
-export default App;
+export default App

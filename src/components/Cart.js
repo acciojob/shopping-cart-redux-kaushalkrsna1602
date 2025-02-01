@@ -11,7 +11,7 @@ import {
   addItemQty,
   removeItemQty,
   addWishlist
-} from "../Redux/action";
+} from "../actions";
 
 class Cart extends Component {
   render() {

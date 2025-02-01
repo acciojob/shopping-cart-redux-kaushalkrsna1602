@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
 import CardWishlist from './CardWishlist';
-import { addToCart } from '../Redux/action';
+import { addToCart } from '../action';
 
 class Wishlist extends Component {
     render() {
