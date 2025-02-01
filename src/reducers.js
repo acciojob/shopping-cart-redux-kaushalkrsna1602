@@ -1,4 +1,4 @@
-import { actionTypes } from './action.js';
+import { actionTypes } from './type.js';  // Correct import path
 import products from './product.json'
 
 const initProducts = [...products]
