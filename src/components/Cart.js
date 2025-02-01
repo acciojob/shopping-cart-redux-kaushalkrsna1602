@@ -11,7 +11,7 @@ import {
   addItemQty,
   removeItemQty,
   addWishlist
-} from "../actions";
+} from "../action";
 
 class Cart extends Component {
   render() {
